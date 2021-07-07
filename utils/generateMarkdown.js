@@ -16,8 +16,8 @@ function generateMarkdown (data) {
 
   # Table of Contents
   * [Description](#description)
-  * [License](#License)
-  * [Installation](#install)
+  * [License](#license)
+  * [Installation](#installation)
   * [Directions](#directions)
   * [Test](#test)
   * [Contributors](#contributors)
@@ -28,7 +28,7 @@ function generateMarkdown (data) {
 
   ## License
 
-  ${data.License}
+  ${data.license}
 
   ## Installation
 
@@ -44,9 +44,13 @@ function generateMarkdown (data) {
 
   ## Contributors
 
-  ${data.Contribution}
+  ${data.contributors}
 
   ## Contact 
+
+  Github: [${data.github}](https://github.com/${data.github})
+
+  Email: [${data.email}](mailto:${data.email})
 `;
 }
 

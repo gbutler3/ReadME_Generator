@@ -1,4 +1,4 @@
-// TODO: Include packages needed for this application
+//Packages needed for this application
 const inquirer = require('inquirer');
 const fs = require('fs');
 const util = require('util');
@@ -6,7 +6,7 @@ const generateMarkdown = require('./utils/generateMarkdown');
 
 const writeFileAsync = util.promisify(fs.writeFile);
 
-// TODO: Create an array of questions for user input
+//Array of questions for user input
 const promptquestions = ()=>{
     return inquirer.prompt([
     {
@@ -43,7 +43,7 @@ const promptquestions = ()=>{
     {
         type: "input",
         message: "Who contributed to this project?",
-        name: "contribution"
+        name: "contributors"
     },
     {
         type: "input",
@@ -62,14 +62,17 @@ function writeToFile(fileName, data) {
     fs.writeFile(fileName,data,err =>{
         if (err){
             throw err;
+        }else{
+            console.log("Successful README.md created")
         }
     })
 }
 
-// TODO: Create a function to initialize app
+//function to initialize app
 function init() {
     promptquestions()
-    .then((data) => writeToFile('README.md', generateMarkdown(data)))
+    .then((data) => writeToFile('./Output/README.md', generateMarkdown(data)))
+    
 
 }
 
