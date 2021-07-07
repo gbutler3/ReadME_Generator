@@ -43,22 +43,22 @@ const promptquestions = ()=>{
     {
         type: "input",
         message: "Who contributed to this project?",
-        name: "Contributors"
+        name: "contribution"
     },
     {
         type: "input",
         message: "what is your Github username?",
-        input: "github",
+        name: "github",
     },
     {
         type: "input",
         message: "what is your email?",
-        input: "email"
+        name: "email"
     }
 ]);
 };
 
-function writwriteeToFile(fileName, data) {
+function writeToFile(fileName, data) {
     fs.writeFile(fileName,data,err =>{
         if (err){
             throw err;
@@ -69,7 +69,7 @@ function writwriteeToFile(fileName, data) {
 // TODO: Create a function to initialize app
 function init() {
     promptquestions()
-    .then((answers) => writeFileAsync('README.md', generateMarkdown(data)))
+    .then((data) => writeToFile('README.md', generateMarkdown(data)))
 
 }
 

@@ -20,7 +20,7 @@ function generateMarkdown (data) {
   * [Installation](#install)
   * [Directions](#directions)
   * [Test](#test)
-  * [Contributors](#contribution)
+  * [Contributors](#contributors)
   * [Contact](#Contact)
   
   # Description
@@ -42,7 +42,7 @@ function generateMarkdown (data) {
 
   ${data.test}
 
-  ## Contributions
+  ## Contributors
 
   ${data.Contribution}
 
