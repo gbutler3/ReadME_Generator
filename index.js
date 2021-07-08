@@ -4,8 +4,6 @@ const fs = require('fs');
 const util = require('util');
 const generateMarkdown = require('./utils/generateMarkdown');
 
-const writeFileAsync = util.promisify(fs.writeFile);
-
 //Array of questions for user input
 const promptquestions = ()=>{
     return inquirer.prompt([
