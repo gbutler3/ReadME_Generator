@@ -1,41 +1,40 @@
-# Example Title
 
-# Table of Contents
+  # README Generator
 
-- [Description](#description)
-- [License](#license)
-- [Installation](#installation)
-- [Directions](#directions)
-- [Test](#test)
-- [Contributors](#contributors)
-- [Questions](#Questions)
+  # Table of Contents
+  * [Description](#description)
+  * [License](#license)
+  * [Installation](#installation)
+  * [Directions](#directions)
+  * [Test](#test)
+  * [Contributors](#contributors)
+  * [Questions](#Questions)
+  
+  # Description
+  This is a readme generator for projects
 
-# Description
+  ## License
 
-Example description of your project. This is helps users do...
+  none
 
-## License
+  ## Installation
 
-MIT
+  npm install and the inquirer package
 
-## Installation
+  ## Directions
 
-You need to install...
+  To generate a readme
 
-## Directions
+  ## Test
 
-This project can be used for ....
+  n/a
 
-## Test
+  ## Contributors
 
-To test this project do....
+  Grace Butler
 
-## Contributors
+  ## Questions 
 
-Example Person Here
+  Github: [gbutler3](https://github.com/gbutler3)
 
-## Questions
-
-Github: [Exampleusername](https://github.com/Exampleusername)
-
-Email: [example@gmail.com](mailto:example@gmail.com)
+  Email: [gmx.butler@gmail.com](mailto:gmx.butler@gmail.com)

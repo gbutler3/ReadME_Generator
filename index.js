@@ -23,6 +23,12 @@ const promptquestions = ()=>{
         name: "install",
     },
     {
+        type: "rawlist",
+        message: "what license are you using?",
+        name: "license",
+        choices: ["none", "MIT", "APACHE 2.0", "GPL 3.0", "BSD 3"]
+    },
+    {
         type: "input",
         message: "What is the use case for this project?",
         name: "directions",
@@ -31,12 +37,6 @@ const promptquestions = ()=>{
         type: "input",
         message: "how do you test this project?",
         name: "test",
-    },
-    {
-        type: "rawlist",
-        message: "what license are you using?",
-        name: "license",
-        choices: ["none", "MIT", "APACHE 2.0", "GPL 3.0", "BSD 3"]
     },
     {
         type: "input",

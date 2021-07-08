@@ -32,4 +32,6 @@ GIVEN a command-line application that accepts user input
 - When I enter my email address, this is added to the section of the README entitled Questions, with instructions on how to reach me with additional questions
 - When I click on the links in the Table of Contents, I am taken to the corresponding section of the README
 
-## Video
+## Demo
+
+![screencastify of project running in terminal.](./Screencastify.gif)
